@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ingliz Tili Video Darsliklari</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>ENGILSH GRAMMAR</h1>
+    <button id="toggle-theme">🌙 Kecha / ☀️ Kunduz</button>
+  </header>
+
+  <center>
+    <h3>ASSALOMU ALAYKUM hammaga barcha video 40ta. Pastdagi tugmaa orqali keyingilariga utishingiz mumkin!</h3>
+    <div class="pagination">
+      <button id="prevPage">⬅️ Oldingi</button>
+      <span id="pageInfo"></span>
+      <button id="nextPage">Keyingi ➡️</button>
+    </div>
+  </center>
+
+  <main class="video-gallery" id="video-container">
+    <!-- JavaScript bu yerga videolarni joylaydi -->
+  </main>
+
+  <!-- Modal for comments -->
+  <div id="commentModal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h3>Izoh qoldiring</h3>
+      <input type="text" id="username" placeholder="Ismingiz"> <br>
+      <textarea id="commentText" rows="4" placeholder="Izoh yozing..."></textarea>
+      <button id="submitComment">Yuborish</button>
+    </div>
+  </div>
+
+  <script src="Script/script.js"></script>
+</body>
+
+</html>
